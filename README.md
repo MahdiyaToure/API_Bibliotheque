@@ -1,4 +1,4 @@
-# API GESTION DE BIBLIOTHEQUE
+# API_BIBLIOTHEQUE
 
 Cette API permet de gérer des categories de livres d'une bibliothèque
 
@@ -307,5 +307,6 @@ L'API vous renvoie 4 types d'erreur:
 
 ```
 
-FIN#   A P I _ B i b l i o t h e q u e  
+FIN#   A P I _ B i b l i o t h e q u e 
+ 
  "# API_Bibliotheque" 
