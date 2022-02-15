@@ -10,8 +10,10 @@ load_dotenv()
 app = Flask(__name__)
 motdepasse = quote_plus(os.getenv('db_password'))
 hote=os.getenv('hostname')
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:{}@{}:5432/bibliotheque'.format(motdepasse,hote)
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:{}@{}:5432/bibliotheque'.format(motdepasse,hote)
+app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql://pdfpblidqsmfbk:d286f8b5ef5e2914558bc6447ddb3e5ae0639f0d3f894d3790af9e789e10a577@ec2-54-195-76-73.eu-west-1.compute.amazonaws.com:5432/d4u4lvh6v3gvdj'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 db= SQLAlchemy(app)
 CORS(app)
 
