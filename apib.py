@@ -276,18 +276,3 @@ def error_not_found(error):
 
 
 ########################################################### FIN ############################################################
-
-
-
-"""
-- Listes tous les livres                          #ok
-- Chercher un livre en particulier par son id     #ok
-- Lister la liste des livres d’une catégorie      #ok
-- Chercher une catégorie par son id               #ok
-- Listes toutes les catégories                    #ok
-- Supprimer un livre                              #ok
-- Supprimer une categorie                         #ok
-- Modifier les informations d’un livre            #ok
-- Modifier le libellé d’une                       #ok
-
-"""
